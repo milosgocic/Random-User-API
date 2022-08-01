@@ -1,0 +1,45 @@
+body {
+    background-color: #edf2f4;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#app {
+    width: 400px;
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.male {
+    border-color: #4169e1;
+    background-color: #4169e1;
+}
+
+.female {
+    border-color: #FF7396;
+    background-color: #FF7396;
+}
+
+img {
+    border-radius: 50%;
+    border: 5px black solid;
+    margin-bottom: 10px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+span {
+    font-weight: bold;
+}
